@@ -1,7 +1,82 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200&display=swap');
+
+
+:root {
+    --font1: 'Martel Sans', sans-serif;
+}
+
+
 * {
     margin: 0px;
     padding: 0px;
 }
 
+html body {
+    height: 100vh;
+    border-radius: 10px;
+    background: blanchedalmond url('../imagens/tibia-fundo.jpg') center center no-repeat fixed;
+    background-size: cover;
+    
+}
+
+div.t1 {
+    background-color: black;
+    color: white;
+    font-family: var(--font1);
+}
+
+a {
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+    
+}
+
+a:hover {
+    text-decoration: none;
+}
+main {
+    max-width: 800px;
+    background-color: white;
+    border-radius: 10px 5px;
+    border: 1px solid black;
+    text-align: center;
+    margin: auto;
+    box-shadow: 1px 2px 3px rgb(0 0 0 / 70%);
+
+    
+}
+
+article > h1 {
+    font-family: var(--font1);
+
+}
+
+article > p {
+    text-align: left;
+    text-indent: 1.5em;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+p#tibia {
+    text-align: center;
+    font-size: 0.7em;
+}
+h2 {
+    margin-bottom: 3px;
+}
+
+img {
+    width: 60%;
+    height: 50%;
+}
+
+
+footer {
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
