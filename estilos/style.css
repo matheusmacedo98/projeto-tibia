@@ -4,7 +4,8 @@
 
 
 :root {
-    --font1: 'Martel Sans', sans-serif;
+    --font-padrao: 'Arial', 'Verdana' , 'Helvetica' 'sans-serif';
+    --font-1: 'Martel Sans', sans-serif;
 }
 
 
@@ -28,8 +29,9 @@ html body {
 div.t1 {
     background-color: black;
     color: white;
-    font-family: var(--font1);
+    font-family: var(--font-1);
     font-size: 1.5em;
+    padding: 0px;
 }
 
 p#tr {
@@ -46,6 +48,7 @@ a {
 a:hover {
     text-decoration: none;
 }
+
 main {
     max-width: 800px;
     background-color: white;
@@ -58,16 +61,19 @@ main {
     
 }
 
-article > h1 {
-    font-family: var(--font1);
+h1 {
+    padding-top: 10px;
+    font-family: var(--font-1);
 
 }
 
 article > p {
+    font-family: var(--font-padrao);
     text-align: left;
     text-indent: 1.5em;
     margin-bottom: 10px;
     padding-bottom: 10px;
+    padding: 15px;
 }
 
 p#tibia {
@@ -77,15 +83,21 @@ p#tibia {
 
 h2 {
     margin-bottom: 3px;
+    font-size: medium;
 }
 
 img {
     width: 60%;
     height: 50%;
+    display: block;
+    margin: auto;
 }
 
 
+
+
 footer {
+    border: 1px;
     padding: 5px;
     color: white;
     text-align: center;
