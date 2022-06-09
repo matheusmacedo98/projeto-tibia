@@ -14,6 +14,10 @@
 }
 
 html body {
+    min-height: 100vh;
+}
+
+ body {
     height: 100vh;
     border-radius: 10px;
     background: blanchedalmond url('../imagens/tibia-fundo.jpg') center center no-repeat fixed;
@@ -25,6 +29,11 @@ div.t1 {
     background-color: black;
     color: white;
     font-family: var(--font1);
+    font-size: 1.5em;
+}
+
+p#tr {
+    font-size: 0.5em;
 }
 
 a {
